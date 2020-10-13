@@ -25,7 +25,6 @@ function setup() {
 
 function draw() {
   background(0);  
-  hasCollided(bullet,wall);
   bullet.velocityX=speed;
   if(hasCollided(bullet,wall))
   {
