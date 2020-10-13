@@ -14,11 +14,11 @@ function setup() {
   thickness=Math.round(random(22,83));
   
   
-  bullet=createSprite(50, 100, 50, 5);
+  bullet=createSprite(50, 200, 50, 5);
   bullet.shapeColor=("white");
 
  
-  wall=createSprite(900, 100, thickness, height/2);
+  wall=createSprite(1200, 200, thickness, height/2);
   wall.shapeColor=color(80,80,80);
   drawSprites();
 }
